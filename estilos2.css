@@ -1,0 +1,60 @@
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #000000;
+        background-color: #87cefa;
+    }
+
+/* Estilos generales para el formulario */
+form {
+  width: 500px;
+  padding: 20px;
+  border: 10px solid #708090;
+  border-radius: 5px;
+}
+
+/* Estilos para las etiquetas */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+input:invalid,
+textarea:invalid {
+  border: 3px solid cyan;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+  box-shadow: 0 0 2px red;
+}
+
+input:invalid+label,
+textarea:invalid+label {
+  color: black;
+}
+body{
+  font-family: 'segeo ui', sans-serif;
+  background-color: #ffa6fd;
+  padding: 40px;
+  color: #d800d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
